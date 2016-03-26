@@ -18,7 +18,7 @@ Creates Function Linking Form Entries To Post Content. This function allows you 
 }
 \examples{
 \dontrun{
-url \%>\% gformr() -> new_post_to_form
+new_post_to_form <- gformr(url)
 new_post_to_form(content_to_post_to_url)
 }
 }
